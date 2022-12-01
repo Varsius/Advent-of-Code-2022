@@ -13,5 +13,3 @@ calories.sort(reverse=True)  # Sort calorie values descending
 
 print(f"Part 1: {max(calories)} are the most calories carried by an elf.")
 print(f"Part 2: {sum(calories[:3])} calories are carried by the top three elfs.")
-
-
